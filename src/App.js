@@ -27,11 +27,11 @@ export default function App() {
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle Menu"
             >
-              {menuOpen ? "✕" : "☰"}
+              {menuOpen ? 'x' : '≡'}
             </button>
           </div>
 
-          <div className={\`w-full \${menuOpen ? "block" : "hidden"} md:flex md:items-center md:justify-between\`}>
+          <div className={`w-full ${menuOpen ? "block" : "hidden"} md:flex md:items-center md:justify-between`}>
             <div className="flex flex-wrap justify-between w-full text-center md:text-left text-sm md:text-base">
               <Link to="/" className="py-2 px-6 text-gray-800 font-semibold hover:text-green-600" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link to="/residential" className="py-2 px-6 text-gray-800 font-semibold hover:text-green-600" onClick={() => setMenuOpen(false)}>Residential</Link>
