@@ -1,0 +1,1 @@
+export default function WhyChooseUs() { return <div className='p-6'>💡 Why Choose Vextara</div>; }

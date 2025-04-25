@@ -1,0 +1,1 @@
+export default function TermitePage() { return <div className='p-6'>🪵 All About Termites</div>; }

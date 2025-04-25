@@ -1,0 +1,1 @@
+export default function HomePage() { return <div className='p-6'>🏡 Welcome to the Vextara Home Page</div>; }

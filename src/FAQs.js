@@ -1,0 +1,1 @@
+export default function FAQs() { return <div className='p-6'>❓ Frequently Asked Questions</div>; }

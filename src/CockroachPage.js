@@ -1,0 +1,1 @@
+export default function CockroachPage() { return <div className='p-6'>🪳 All About Cockroaches</div>; }
