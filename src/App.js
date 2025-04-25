@@ -29,7 +29,8 @@ export default function App() {
   return (
     <Router>
       <div className="font-sans min-h-screen bg-gray-50">
-        <nav className="bg-green-700 shadow p-4 relative">
+        {/* Navigation Bar */}
+        <nav className="bg-[#2a9d8f] shadow-lg p-4 relative">
           {/* Hamburger icon */}
           <button
             className="absolute right-4 top-5 transform md:hidden text-white text-2xl"
@@ -39,7 +40,7 @@ export default function App() {
             {menuOpen ? "✕" : "☰"}
           </button>
 
-          {/* Logo Centered */}
+          {/* Centered Logo */}
           <div className="flex justify-center">
             <Link to="/">
               <img
@@ -50,14 +51,14 @@ export default function App() {
             </Link>
           </div>
 
-          {/* Nav Links */}
+          {/* Navigation Links */}
           <div className={`mt-4 md:flex md:justify-center ${menuOpen ? "block" : "hidden"}`}>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
                   to={item.path}
-                  className="flex items-center gap-2 text-white hover:text-green-300 text-lg"
+                  className="flex items-center gap-2 text-white hover:text-green-300 text-lg font-medium"
                   onClick={() => setMenuOpen(false)}
                 >
                   <span>{item.icon}</span>
@@ -68,6 +69,7 @@ export default function App() {
           </div>
         </nav>
 
+        {/* Page Routes */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/residential" element={<ResidentialPestControl />} />
