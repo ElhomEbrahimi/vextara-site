@@ -20,7 +20,6 @@ export default function App() {
     <Router>
       <div className="font-sans min-h-screen bg-gray-50">
         <nav className="bg-white shadow p-4 md:flex md:items-center md:justify-between flex-wrap">
-          {/* Logo + Toggle Button */}
           <div className="flex justify-between items-center w-full md:w-auto">
             <span className="text-xl font-bold text-gray-800">Vextara</span>
             <button
@@ -32,8 +31,7 @@ export default function App() {
             </button>
           </div>
 
-          {/* Navigation Links */}
-          <div className={\`w-full \${menuOpen ? "block" : "hidden"} md:flex md:items-center md:justify-between\`}> 
+          <div className={\`w-full \${menuOpen ? "block" : "hidden"} md:flex md:items-center md:justify-between\`}>
             <div className="flex flex-wrap justify-between w-full text-center md:text-left text-sm md:text-base">
               <Link to="/" className="py-2 px-6 text-gray-800 font-semibold hover:text-green-600" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link to="/residential" className="py-2 px-6 text-gray-800 font-semibold hover:text-green-600" onClick={() => setMenuOpen(false)}>Residential</Link>

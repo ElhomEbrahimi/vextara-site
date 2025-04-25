@@ -1,0 +1,1 @@
+export default function ResidentialPestControl() { return <div className='p-6'>🏠 Residential Pest Control Services</div>; }
