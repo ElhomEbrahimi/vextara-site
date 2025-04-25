@@ -1,1 +1,1 @@
-export default function SpiderPage() { return <div className='p-6'>🕷️ All About Spiders</div>; }
+export default function SpiderPage() { return <h1>Spiders</h1>; }

@@ -1,1 +1,1 @@
-export default function PestLibrary() { return <div className='p-6'>🐜 Pest Library Overview</div>; }
+export default function PestLibrary() { return <h1>Pest Library</h1>; }

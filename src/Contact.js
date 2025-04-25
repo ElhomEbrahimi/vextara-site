@@ -1,1 +1,1 @@
-export default function Contact() { return <div className='p-6'>📞 Contact us at Vextara</div>; }
+export default function Contact() { return <h1>Contact</h1>; }

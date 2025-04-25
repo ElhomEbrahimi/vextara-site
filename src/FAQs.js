@@ -1,1 +1,1 @@
-export default function FAQs() { return <div className='p-6'>❓ Frequently Asked Questions</div>; }
+export default function FAQs() { return <h1>FAQs</h1>; }

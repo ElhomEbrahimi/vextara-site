@@ -1,1 +1,1 @@
-export default function WhyChooseUs() { return <div className='p-6'>💡 Why Choose Vextara</div>; }
+export default function WhyChooseUs() { return <h1>Why Choose Us</h1>; }

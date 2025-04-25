@@ -1,1 +1,1 @@
-export default function RodentPage() { return <div className='p-6'>🐭 All About Rodents</div>; }
+export default function RodentPage() { return <h1>Rodents</h1>; }

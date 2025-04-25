@@ -1,1 +1,1 @@
-export default function AntPage() { return <div className='p-6'>🐜 All About Ants</div>; }
+export default function AntPage() { return <h1>Ants</h1>; }

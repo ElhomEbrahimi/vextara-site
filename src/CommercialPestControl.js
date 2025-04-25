@@ -1,1 +1,1 @@
-export default function CommercialPestControl() { return <div className='p-6'>🏢 Commercial Pest Control Services</div>; }
+export default function CommercialPestControl() { return <h1>Commercial</h1>; }
